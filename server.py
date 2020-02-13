@@ -6,7 +6,7 @@ print(__name__)
 
 @app.route('/')
 def my_home():
-	return render_template('about.html')
+	return render_template('index.html')
 
 @app.route('/<string:page_name>')
 def page(page_name):
